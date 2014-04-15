@@ -16,6 +16,14 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.orbotix.robotprotocol</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

@@ -1,26 +1,256 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Jvl-t2-UXA">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Reveal View Controller-->
+        <scene sceneID="hPL-rM-Ofi">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <viewController id="Jvl-t2-UXA" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SkO-JW-d7a"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZjX-Up-fr9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="o38-1E-cE6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="0CD-2O-KZz" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegue" id="ovu-Ep-lWM"/>
+                        <segue destination="ACg-y7-Av5" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegue" id="RbN-oK-4iA"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vvd-bX-WCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1208" y="443"/>
+        </scene>
+        <!--Sidebar View Controller-->
+        <scene sceneID="zYg-6L-7Vt">
+            <objects>
+                <viewController storyboardIdentifier="SidebarController" id="0CD-2O-KZz" customClass="SidebarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PD1-ae-D4U"/>
+                        <viewControllerLayoutGuide type="bottom" id="61R-8H-Uy1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pf9-Mq-vqn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MindColor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yl7-Tq-ida">
+                                <rect key="frame" x="20" y="35" width="80" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wHt-E4-X12">
+                                <rect key="frame" x="120" y="30" width="51" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="MindColorChanged:" destination="0CD-2O-KZz" eventType="valueChanged" id="251-1i-F3c"/>
+                                </connections>
+                            </switch>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="Devices needed:" translatesAutoresizingMaskIntoConstraints="NO" id="oDV-wN-yvx">
+                                <rect key="frame" x="20" y="65" width="127" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="Sphero" translatesAutoresizingMaskIntoConstraints="NO" id="rbh-eH-kS5">
+                                <rect key="frame" x="59" y="97" width="68" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="MindWave Mobile" translatesAutoresizingMaskIntoConstraints="NO" id="5xO-QZ-sKw">
+                                <rect key="frame" x="172" y="94" width="84" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpheroInstuctions.png" translatesAutoresizingMaskIntoConstraints="NO" id="MMj-zL-vbn">
+                                <rect key="frame" x="11" y="92" width="52" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MindWave-Mobile.png" translatesAutoresizingMaskIntoConstraints="NO" id="gnP-ea-mdY">
+                                <rect key="frame" x="117" y="92" width="52" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pas-Ml-XEb">
+                                <rect key="frame" x="20" y="145" width="179" height="158"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Connect the 2 using the device's bluetooth. Wait until the Sphero and MindWave icons indicate they are connected to the app. MindWave may take up to 3 minutes to achieve a green signal so be patient.
+</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpheroConnected.png" translatesAutoresizingMaskIntoConstraints="NO" id="OWd-1C-GZ0">
+                                <rect key="frame" x="207" y="234" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Signal_Connected.png" translatesAutoresizingMaskIntoConstraints="NO" id="cbt-Oi-H87">
+                                <rect key="frame" x="202" y="183" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yEd-tN-w1A">
+                                <rect key="frame" x="20" y="316" width="179" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">To move Sphero, keep the round peg on green by focussing. Blink hard enough to turn right. Should MindWave's signal suddenly drop, the pegs will stop. A green signal unlocks them back.</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Signal_Connecting3.png" translatesAutoresizingMaskIntoConstraints="NO" id="cxb-VL-hZX">
+                                <rect key="frame" x="207" y="370" width="35" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="mindColorSwitch" destination="wHt-E4-X12" id="Meb-yn-4oP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZSh-Ax-M8H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-661" y="69"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2AF-k4-EXa">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" id="ACg-y7-Av5" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tfN-qM-XpL">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ltc-Uo-JPw" kind="relationship" relationship="rootViewController" id="GCN-eu-jDz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2al-RR-e0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-661" y="752"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zIJ-XD-uuV">
+            <objects>
+                <viewController id="ltc-Uo-JPw" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l3K-5J-U0F"/>
+                        <viewControllerLayoutGuide type="bottom" id="Blg-60-epm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g7G-Co-0RP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N1V-dT-IsP">
+                                <rect key="frame" x="20" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="settings.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="verticalAttentionTachometerBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="ncn-hZ-cfC">
+                                <rect key="frame" x="99" y="96" width="44" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="verticalBlinkTachometerBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="A4v-8z-AfP">
+                                <rect key="frame" x="177" y="96" width="44" height="284"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bulaTag.png" translatesAutoresizingMaskIntoConstraints="NO" id="9BG-7y-4xG">
+                                <rect key="frame" x="106" y="58" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bulaTag.png" translatesAutoresizingMaskIntoConstraints="NO" id="osj-9C-DnJ">
+                                <rect key="frame" x="184" y="58" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Signal_Disconnected.png" translatesAutoresizingMaskIntoConstraints="NO" id="csm-w6-Nts">
+                                <rect key="frame" x="270" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SpheroDisconnected.png" translatesAutoresizingMaskIntoConstraints="NO" id="d6y-fd-51K">
+                                <rect key="frame" x="237" y="23" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJR-8B-XXx">
+                                <rect key="frame" x="140" y="409" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29327636289999998" green="0.46429226260000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4wE-p6-S3R">
+                                <rect key="frame" x="62" y="409" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="color-spectrum.png">
+                                    <color key="titleColor" red="0.2160838662" green="0.33905686499999999" blue="0.61194595029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="colorPressed:" destination="ltc-Uo-JPw" eventType="touchUpInside" id="krm-Ng-E1p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="85j-25-fMN">
+                                <rect key="frame" x="222" y="409" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="SpheroSleep.png">
+                                    <color key="titleColor" red="0.2160838662" green="0.33905686499999999" blue="0.61194595029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sleepPressed:" destination="ltc-Uo-JPw" eventType="touchUpInside" id="R39-sq-gTG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Nh-n4-FE7"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="MindWaveConnectionStatusImage" destination="csm-w6-Nts" id="yCq-o0-Hmp"/>
+                        <outlet property="SpheroConnectionStatusImage" destination="d6y-fd-51K" id="vtd-Ah-6S7"/>
+                        <outlet property="attentionBar" destination="ncn-hZ-cfC" id="cdO-tK-Mcp"/>
+                        <outlet property="attentionTag" destination="9BG-7y-4xG" id="aNL-dE-hcz"/>
+                        <outlet property="blinkBar" destination="A4v-8z-AfP" id="8Qv-Jk-hLa"/>
+                        <outlet property="blinkTag" destination="osj-9C-DnJ" id="Mmd-DA-xQW"/>
+                        <outlet property="calibrateAboveButton" destination="eJR-8B-XXx" id="RUs-cZ-FAA"/>
+                        <outlet property="colorButton" destination="4wE-p6-S3R" id="3QA-3d-buy"/>
+                        <outlet property="sidebarButton" destination="N1V-dT-IsP" id="Tve-ev-gLX"/>
+                        <outlet property="sleepButton" destination="85j-25-fMN" id="l7e-zA-WPJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JrL-xx-TZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78" y="752"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="MindWave-Mobile.png" width="500" height="665"/>
+        <image name="Signal_Connected.png" width="60" height="60"/>
+        <image name="Signal_Connecting3.png" width="60" height="60"/>
+        <image name="Signal_Disconnected.png" width="60" height="60"/>
+        <image name="SpheroConnected.png" width="300" height="300"/>
+        <image name="SpheroDisconnected.png" width="300" height="300"/>
+        <image name="SpheroInstuctions.png" width="200" height="200"/>
+        <image name="SpheroSleep.png" width="300" height="300"/>
+        <image name="bulaTag.png" width="50" height="50"/>
+        <image name="color-spectrum.png" width="426" height="418"/>
+        <image name="settings.png" width="512" height="512"/>
+        <image name="verticalAttentionTachometerBackground.png" width="80" height="320"/>
+        <image name="verticalBlinkTachometerBackground.png" width="80" height="320"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

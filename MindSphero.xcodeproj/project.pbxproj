@@ -7,6 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94023B1E189FD33D003934D3 /* libTGAccessory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94023B1B189FD33D003934D3 /* libTGAccessory.a */; };
+		94023B21189FD431003934D3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94023B20189FD431003934D3 /* Accelerate.framework */; };
+		9488AD2618C7606F0013DDEF /* verticalTachometerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9488AD2518C7606F0013DDEF /* verticalTachometerBackground.png */; };
+		94921ACF18D2F05D0094E337 /* bulaTag.png in Resources */ = {isa = PBXBuildFile; fileRef = 94921ACE18D2F05D0094E337 /* bulaTag.png */; };
+		9493E5E118D6FFB6008C91B2 /* instructions1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5E018D6FFB6008C91B2 /* instructions1.png */; };
+		9493E5E318D70044008C91B2 /* instructions2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5E218D70044008C91B2 /* instructions2.png */; };
+		9493E5E918D705E8008C91B2 /* MindWave-Mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5E818D705E8008C91B2 /* MindWave-Mobile.png */; };
+		9493E5EB18D7063D008C91B2 /* SpheroInstuctions.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5EA18D7063D008C91B2 /* SpheroInstuctions.png */; };
+		9493E5ED18D713AD008C91B2 /* bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5EC18D713AD008C91B2 /* bluetooth.png */; };
+		9493E5FD18D75557008C91B2 /* MindSpheroBallHeadset.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5EF18D75557008C91B2 /* MindSpheroBallHeadset.png */; };
+		9493E5FE18D75557008C91B2 /* MindSpheroBallHeadset100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F018D75557008C91B2 /* MindSpheroBallHeadset100x100.png */; };
+		9493E5FF18D75557008C91B2 /* MindSpheroBallHeadset114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F118D75557008C91B2 /* MindSpheroBallHeadset114x114.png */; };
+		9493E60018D75557008C91B2 /* MindSpheroBallHeadset120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F218D75557008C91B2 /* MindSpheroBallHeadset120x120.png */; };
+		9493E60118D75557008C91B2 /* MindSpheroBallHeadset144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F318D75557008C91B2 /* MindSpheroBallHeadset144x144.png */; };
+		9493E60218D75557008C91B2 /* MindSpheroBallHeadset152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F418D75557008C91B2 /* MindSpheroBallHeadset152x152.png */; };
+		9493E60318D75557008C91B2 /* MindSpheroBallHeadset29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F518D75557008C91B2 /* MindSpheroBallHeadset29x29.png */; };
+		9493E60418D75557008C91B2 /* MindSpheroBallHeadset40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F618D75557008C91B2 /* MindSpheroBallHeadset40x40.png */; };
+		9493E60518D75557008C91B2 /* MindSpheroBallHeadset50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F718D75557008C91B2 /* MindSpheroBallHeadset50x50.png */; };
+		9493E60618D75557008C91B2 /* MindSpheroBallHeadset57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F818D75557008C91B2 /* MindSpheroBallHeadset57x57.png */; };
+		9493E60718D75557008C91B2 /* MindSpheroBallHeadset58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5F918D75557008C91B2 /* MindSpheroBallHeadset58x58.png */; };
+		9493E60818D75557008C91B2 /* MindSpheroBallHeadset72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5FA18D75557008C91B2 /* MindSpheroBallHeadset72x72.png */; };
+		9493E60918D75557008C91B2 /* MindSpheroBallHeadset76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5FB18D75557008C91B2 /* MindSpheroBallHeadset76x76.png */; };
+		9493E60A18D75557008C91B2 /* MindSpheroBallHeadset80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E5FC18D75557008C91B2 /* MindSpheroBallHeadset80x80.png */; };
+		9493E61118D75B89008C91B2 /* launchImage640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E60B18D75B89008C91B2 /* launchImage640x960.png */; };
+		9493E61218D75B89008C91B2 /* launchImage640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E60C18D75B89008C91B2 /* launchImage640x1136.png */; };
+		9493E61318D75B89008C91B2 /* lauchImage768x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E60D18D75B89008C91B2 /* lauchImage768x1024.png */; };
+		9493E61418D75B89008C91B2 /* launchImage1536x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E60E18D75B89008C91B2 /* launchImage1536x2048.png */; };
+		9493E61518D75B89008C91B2 /* launchImage1024x768.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E60F18D75B89008C91B2 /* launchImage1024x768.png */; };
+		9493E61618D75B89008C91B2 /* launchImage2048x1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 9493E61018D75B89008C91B2 /* launchImage2048x1536.png */; };
+		9493E61E18D75FD4008C91B2 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9493E61818D75FD4008C91B2 /* libTestFlight.a */; };
+		9493E61F18D75FD4008C91B2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9493E61918D75FD4008C91B2 /* README.md */; };
+		9493E62018D75FD4008C91B2 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 9493E61A18D75FD4008C91B2 /* release_notes.md */; };
+		9493E62218D7609B008C91B2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9493E62118D7609B008C91B2 /* libz.dylib */; };
+		9494CC6818D4EEE7002094CF /* color-spectrum.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC6718D4EEE7002094CF /* color-spectrum.png */; };
+		9494CC6A18D4F160002094CF /* SpheroSleep.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC6918D4F160002094CF /* SpheroSleep.png */; };
+		9494CC6D18D65076002094CF /* blinkEye.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC6B18D65076002094CF /* blinkEye.png */; };
+		9494CC6E18D65076002094CF /* attentionEye.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC6C18D65076002094CF /* attentionEye.png */; };
+		9494CC7018D65546002094CF /* verticalBlinkTachometerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC6F18D65546002094CF /* verticalBlinkTachometerBackground.png */; };
+		9494CC7218D658BE002094CF /* verticalAttentionTachometerBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9494CC7118D658BE002094CF /* verticalAttentionTachometerBackground.png */; };
+		949C804B18D34F3200CD60E6 /* MindColorKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 949C804A18D34F3200CD60E6 /* MindColorKeeper.m */; };
+		94E29A6A18CC7E15006AB5AA /* SpheroIng.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E29A6718CC7E15006AB5AA /* SpheroIng.png */; };
+		94E29A6B18CC7E15006AB5AA /* SpheroDisconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E29A6818CC7E15006AB5AA /* SpheroDisconnected.png */; };
+		94E29A6C18CC7E15006AB5AA /* SpheroConnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E29A6918CC7E15006AB5AA /* SpheroConnected.png */; };
+		94E29A6E18CC7EF3006AB5AA /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E29A6D18CC7EF3006AB5AA /* tag.png */; };
+		94E29A7018CC84F7006AB5AA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E29A6F18CC84F7006AB5AA /* settings.png */; };
+		94E29A7A18CC88A4006AB5AA /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E29A7918CC88A4006AB5AA /* SWRevealViewController.m */; };
+		94E29A7F18CCA348006AB5AA /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94E29A7E18CCA348006AB5AA /* SidebarViewController.m */; };
+		94E5E8FD18B35269009AB3DD /* Signal_Connected.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E5E8FC18B35269009AB3DD /* Signal_Connected.png */; };
+		94E5E90018B35275009AB3DD /* Signal_Connecting3.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E5E8FE18B35275009AB3DD /* Signal_Connecting3.png */; };
+		94E5E90118B35275009AB3DD /* Signal_Disconnected.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E5E8FF18B35275009AB3DD /* Signal_Disconnected.png */; };
+		94E5E90418B356C8009AB3DD /* Signal_Connecting1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E5E90218B356C8009AB3DD /* Signal_Connecting1.png */; };
+		94E5E90518B356C8009AB3DD /* Signal_Connecting2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E5E90318B356C8009AB3DD /* Signal_Connecting2.png */; };
 		94F20B601899744A000A9ED2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B5F1899744A000A9ED2 /* Foundation.framework */; };
 		94F20B621899744A000A9ED2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B611899744A000A9ED2 /* CoreGraphics.framework */; };
 		94F20B641899744A000A9ED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B631899744A000A9ED2 /* UIKit.framework */; };
@@ -22,6 +74,11 @@
 		94F20B841899744A000A9ED2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B631899744A000A9ED2 /* UIKit.framework */; };
 		94F20B8C1899744A000A9ED2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94F20B8A1899744A000A9ED2 /* InfoPlist.strings */; };
 		94F20B8E1899744A000A9ED2 /* MindSpheroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F20B8D1899744A000A9ED2 /* MindSpheroTests.m */; };
+		94F20B9A18997B95000A9ED2 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B9718997B95000A9ED2 /* RobotKit.framework */; };
+		94F20B9B18997B95000A9ED2 /* RobotUIKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 94F20B9818997B95000A9ED2 /* RobotUIKit.bundle */; };
+		94F20B9C18997B95000A9ED2 /* RobotUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B9918997B95000A9ED2 /* RobotUIKit.framework */; };
+		94F20BA018997CC4000A9ED2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20B9F18997CC4000A9ED2 /* ExternalAccessory.framework */; };
+		94F20BA218997CD0000A9ED2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94F20BA118997CD0000A9ED2 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +92,67 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94023B1B189FD33D003934D3 /* libTGAccessory.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTGAccessory.a; path = MindSphero/frameworks/libTGAccessory.a; sourceTree = "<group>"; };
+		94023B1C189FD33D003934D3 /* TGAccessoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGAccessoryDelegate.h; path = MindSphero/frameworks/TGAccessoryDelegate.h; sourceTree = "<group>"; };
+		94023B1D189FD33D003934D3 /* TGAccessoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TGAccessoryManager.h; path = MindSphero/frameworks/TGAccessoryManager.h; sourceTree = "<group>"; };
+		94023B20189FD431003934D3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		9488AD2518C7606F0013DDEF /* verticalTachometerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalTachometerBackground.png; sourceTree = "<group>"; };
+		94921ACE18D2F05D0094E337 /* bulaTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bulaTag.png; sourceTree = "<group>"; };
+		9493E5E018D6FFB6008C91B2 /* instructions1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions1.png; sourceTree = "<group>"; };
+		9493E5E218D70044008C91B2 /* instructions2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instructions2.png; sourceTree = "<group>"; };
+		9493E5E818D705E8008C91B2 /* MindWave-Mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MindWave-Mobile.png"; sourceTree = "<group>"; };
+		9493E5EA18D7063D008C91B2 /* SpheroInstuctions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroInstuctions.png; sourceTree = "<group>"; };
+		9493E5EC18D713AD008C91B2 /* bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluetooth.png; sourceTree = "<group>"; };
+		9493E5EF18D75557008C91B2 /* MindSpheroBallHeadset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset.png; sourceTree = "<group>"; };
+		9493E5F018D75557008C91B2 /* MindSpheroBallHeadset100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset100x100.png; sourceTree = "<group>"; };
+		9493E5F118D75557008C91B2 /* MindSpheroBallHeadset114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset114x114.png; sourceTree = "<group>"; };
+		9493E5F218D75557008C91B2 /* MindSpheroBallHeadset120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset120x120.png; sourceTree = "<group>"; };
+		9493E5F318D75557008C91B2 /* MindSpheroBallHeadset144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset144x144.png; sourceTree = "<group>"; };
+		9493E5F418D75557008C91B2 /* MindSpheroBallHeadset152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset152x152.png; sourceTree = "<group>"; };
+		9493E5F518D75557008C91B2 /* MindSpheroBallHeadset29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset29x29.png; sourceTree = "<group>"; };
+		9493E5F618D75557008C91B2 /* MindSpheroBallHeadset40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset40x40.png; sourceTree = "<group>"; };
+		9493E5F718D75557008C91B2 /* MindSpheroBallHeadset50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset50x50.png; sourceTree = "<group>"; };
+		9493E5F818D75557008C91B2 /* MindSpheroBallHeadset57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset57x57.png; sourceTree = "<group>"; };
+		9493E5F918D75557008C91B2 /* MindSpheroBallHeadset58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset58x58.png; sourceTree = "<group>"; };
+		9493E5FA18D75557008C91B2 /* MindSpheroBallHeadset72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset72x72.png; sourceTree = "<group>"; };
+		9493E5FB18D75557008C91B2 /* MindSpheroBallHeadset76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset76x76.png; sourceTree = "<group>"; };
+		9493E5FC18D75557008C91B2 /* MindSpheroBallHeadset80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MindSpheroBallHeadset80x80.png; sourceTree = "<group>"; };
+		9493E60B18D75B89008C91B2 /* launchImage640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage640x960.png; sourceTree = "<group>"; };
+		9493E60C18D75B89008C91B2 /* launchImage640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage640x1136.png; sourceTree = "<group>"; };
+		9493E60D18D75B89008C91B2 /* lauchImage768x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauchImage768x1024.png; sourceTree = "<group>"; };
+		9493E60E18D75B89008C91B2 /* launchImage1536x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage1536x2048.png; sourceTree = "<group>"; };
+		9493E60F18D75B89008C91B2 /* launchImage1024x768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage1024x768.png; sourceTree = "<group>"; };
+		9493E61018D75B89008C91B2 /* launchImage2048x1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage2048x1536.png; sourceTree = "<group>"; };
+		9493E61818D75FD4008C91B2 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		9493E61918D75FD4008C91B2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		9493E61A18D75FD4008C91B2 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		9493E61B18D75FD4008C91B2 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		9493E61C18D75FD4008C91B2 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		9493E61D18D75FD4008C91B2 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		9493E62118D7609B008C91B2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9494CC6718D4EEE7002094CF /* color-spectrum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color-spectrum.png"; sourceTree = "<group>"; };
+		9494CC6918D4F160002094CF /* SpheroSleep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroSleep.png; sourceTree = "<group>"; };
+		9494CC6B18D65076002094CF /* blinkEye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blinkEye.png; sourceTree = "<group>"; };
+		9494CC6C18D65076002094CF /* attentionEye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attentionEye.png; sourceTree = "<group>"; };
+		9494CC6F18D65546002094CF /* verticalBlinkTachometerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalBlinkTachometerBackground.png; sourceTree = "<group>"; };
+		9494CC7118D658BE002094CF /* verticalAttentionTachometerBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verticalAttentionTachometerBackground.png; sourceTree = "<group>"; };
+		949C804A18D34F3200CD60E6 /* MindColorKeeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MindColorKeeper.m; sourceTree = "<group>"; };
+		949C804C18D34FC500CD60E6 /* MindColorKeeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MindColorKeeper.h; sourceTree = "<group>"; };
+		94E29A6718CC7E15006AB5AA /* SpheroIng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroIng.png; sourceTree = "<group>"; };
+		94E29A6818CC7E15006AB5AA /* SpheroDisconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroDisconnected.png; sourceTree = "<group>"; };
+		94E29A6918CC7E15006AB5AA /* SpheroConnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SpheroConnected.png; sourceTree = "<group>"; };
+		94E29A6D18CC7EF3006AB5AA /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		94E29A6F18CC84F7006AB5AA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		94E29A7818CC88A4006AB5AA /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = MindSphero/SWRevealViewController.h; sourceTree = "<group>"; };
+		94E29A7918CC88A4006AB5AA /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = MindSphero/SWRevealViewController.m; sourceTree = "<group>"; };
+		94E29A7C18CC91D0006AB5AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		94E29A7D18CCA33C006AB5AA /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		94E29A7E18CCA348006AB5AA /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		94E5E8FC18B35269009AB3DD /* Signal_Connected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_Connected.png; sourceTree = "<group>"; };
+		94E5E8FE18B35275009AB3DD /* Signal_Connecting3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_Connecting3.png; sourceTree = "<group>"; };
+		94E5E8FF18B35275009AB3DD /* Signal_Disconnected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_Disconnected.png; sourceTree = "<group>"; };
+		94E5E90218B356C8009AB3DD /* Signal_Connecting1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_Connecting1.png; sourceTree = "<group>"; };
+		94E5E90318B356C8009AB3DD /* Signal_Connecting2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Signal_Connecting2.png; sourceTree = "<group>"; };
 		94F20B5C1899744A000A9ED2 /* MindSphero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindSphero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F20B5F1899744A000A9ED2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		94F20B611899744A000A9ED2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,7 +164,6 @@
 		94F20B6E1899744A000A9ED2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94F20B6F1899744A000A9ED2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		94F20B721899744A000A9ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		94F20B751899744A000A9ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		94F20B771899744A000A9ED2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		94F20B781899744A000A9ED2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		94F20B7A1899744A000A9ED2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +172,11 @@
 		94F20B891899744A000A9ED2 /* MindSpheroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MindSpheroTests-Info.plist"; sourceTree = "<group>"; };
 		94F20B8B1899744A000A9ED2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94F20B8D1899744A000A9ED2 /* MindSpheroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MindSpheroTests.m; sourceTree = "<group>"; };
+		94F20B9718997B95000A9ED2 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotKit.framework; path = MindSphero/frameworks/RobotKit.framework; sourceTree = "<group>"; };
+		94F20B9818997B95000A9ED2 /* RobotUIKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = RobotUIKit.bundle; path = MindSphero/frameworks/RobotUIKit.bundle; sourceTree = "<group>"; };
+		94F20B9918997B95000A9ED2 /* RobotUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RobotUIKit.framework; path = MindSphero/frameworks/RobotUIKit.framework; sourceTree = "<group>"; };
+		94F20B9F18997CC4000A9ED2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		94F20BA118997CD0000A9ED2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +184,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9493E62218D7609B008C91B2 /* libz.dylib in Frameworks */,
+				94023B21189FD431003934D3 /* Accelerate.framework in Frameworks */,
+				94F20BA218997CD0000A9ED2 /* CoreMotion.framework in Frameworks */,
+				94F20BA018997CC4000A9ED2 /* ExternalAccessory.framework in Frameworks */,
+				94F20B9C18997B95000A9ED2 /* RobotUIKit.framework in Frameworks */,
+				94F20B9A18997B95000A9ED2 /* RobotKit.framework in Frameworks */,
+				9493E61E18D75FD4008C91B2 /* libTestFlight.a in Frameworks */,
 				94F20B621899744A000A9ED2 /* CoreGraphics.framework in Frameworks */,
+				94023B1E189FD33D003934D3 /* libTGAccessory.a in Frameworks */,
 				94F20B641899744A000A9ED2 /* UIKit.framework in Frameworks */,
 				94F20B601899744A000A9ED2 /* Foundation.framework in Frameworks */,
 			);
@@ -81,9 +211,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94023B1F189FD366003934D3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				94023B1B189FD33D003934D3 /* libTGAccessory.a */,
+				94023B1C189FD33D003934D3 /* TGAccessoryDelegate.h */,
+				94023B1D189FD33D003934D3 /* TGAccessoryManager.h */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		9493E5EE18D75557008C91B2 /* LaunchIcons */ = {
+			isa = PBXGroup;
+			children = (
+				9493E60B18D75B89008C91B2 /* launchImage640x960.png */,
+				9493E60C18D75B89008C91B2 /* launchImage640x1136.png */,
+				9493E60D18D75B89008C91B2 /* lauchImage768x1024.png */,
+				9493E60E18D75B89008C91B2 /* launchImage1536x2048.png */,
+				9493E60F18D75B89008C91B2 /* launchImage1024x768.png */,
+				9493E61018D75B89008C91B2 /* launchImage2048x1536.png */,
+				9493E5EF18D75557008C91B2 /* MindSpheroBallHeadset.png */,
+				9493E5F018D75557008C91B2 /* MindSpheroBallHeadset100x100.png */,
+				9493E5F118D75557008C91B2 /* MindSpheroBallHeadset114x114.png */,
+				9493E5F218D75557008C91B2 /* MindSpheroBallHeadset120x120.png */,
+				9493E5F318D75557008C91B2 /* MindSpheroBallHeadset144x144.png */,
+				9493E5F418D75557008C91B2 /* MindSpheroBallHeadset152x152.png */,
+				9493E5F518D75557008C91B2 /* MindSpheroBallHeadset29x29.png */,
+				9493E5F618D75557008C91B2 /* MindSpheroBallHeadset40x40.png */,
+				9493E5F718D75557008C91B2 /* MindSpheroBallHeadset50x50.png */,
+				9493E5F818D75557008C91B2 /* MindSpheroBallHeadset57x57.png */,
+				9493E5F918D75557008C91B2 /* MindSpheroBallHeadset58x58.png */,
+				9493E5FA18D75557008C91B2 /* MindSpheroBallHeadset72x72.png */,
+				9493E5FB18D75557008C91B2 /* MindSpheroBallHeadset76x76.png */,
+				9493E5FC18D75557008C91B2 /* MindSpheroBallHeadset80x80.png */,
+			);
+			path = LaunchIcons;
+			sourceTree = "<group>";
+		};
+		9493E61718D75FD4008C91B2 /* TestFlightSDK3.0.0 */ = {
+			isa = PBXGroup;
+			children = (
+				9493E61818D75FD4008C91B2 /* libTestFlight.a */,
+				9493E61918D75FD4008C91B2 /* README.md */,
+				9493E61A18D75FD4008C91B2 /* release_notes.md */,
+				9493E61B18D75FD4008C91B2 /* TestFlight+AsyncLogging.h */,
+				9493E61C18D75FD4008C91B2 /* TestFlight+ManualSessions.h */,
+				9493E61D18D75FD4008C91B2 /* TestFlight.h */,
+			);
+			path = TestFlightSDK3.0.0;
+			sourceTree = "<group>";
+		};
+		94E29A7B18CC895D006AB5AA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				94E29A7818CC88A4006AB5AA /* SWRevealViewController.h */,
+				94E29A7918CC88A4006AB5AA /* SWRevealViewController.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 		94F20B531899744A000A9ED2 = {
 			isa = PBXGroup;
 			children = (
+				9493E61718D75FD4008C91B2 /* TestFlightSDK3.0.0 */,
+				9493E5EE18D75557008C91B2 /* LaunchIcons */,
+				9493E5EC18D713AD008C91B2 /* bluetooth.png */,
+				9493E5EA18D7063D008C91B2 /* SpheroInstuctions.png */,
+				9493E5E818D705E8008C91B2 /* MindWave-Mobile.png */,
+				9493E5E218D70044008C91B2 /* instructions2.png */,
+				9493E5E018D6FFB6008C91B2 /* instructions1.png */,
+				9494CC7118D658BE002094CF /* verticalAttentionTachometerBackground.png */,
+				9494CC6F18D65546002094CF /* verticalBlinkTachometerBackground.png */,
+				9494CC6B18D65076002094CF /* blinkEye.png */,
+				9494CC6C18D65076002094CF /* attentionEye.png */,
+				9494CC6918D4F160002094CF /* SpheroSleep.png */,
+				9494CC6718D4EEE7002094CF /* color-spectrum.png */,
+				94921ACE18D2F05D0094E337 /* bulaTag.png */,
+				94E29A7B18CC895D006AB5AA /* Library */,
+				94E29A6F18CC84F7006AB5AA /* settings.png */,
+				94E29A6D18CC7EF3006AB5AA /* tag.png */,
+				94E29A6718CC7E15006AB5AA /* SpheroIng.png */,
+				94E29A6818CC7E15006AB5AA /* SpheroDisconnected.png */,
+				94E29A6918CC7E15006AB5AA /* SpheroConnected.png */,
+				9488AD2518C7606F0013DDEF /* verticalTachometerBackground.png */,
+				94E5E90218B356C8009AB3DD /* Signal_Connecting1.png */,
+				94E5E90318B356C8009AB3DD /* Signal_Connecting2.png */,
+				94E5E8FE18B35275009AB3DD /* Signal_Connecting3.png */,
+				94E5E8FF18B35275009AB3DD /* Signal_Disconnected.png */,
+				94E5E8FC18B35269009AB3DD /* Signal_Connected.png */,
+				94023B1F189FD366003934D3 /* Libraries */,
 				94F20B651899744A000A9ED2 /* MindSphero */,
 				94F20B871899744A000A9ED2 /* MindSpheroTests */,
 				94F20B5E1899744A000A9ED2 /* Frameworks */,
@@ -103,6 +319,13 @@
 		94F20B5E1899744A000A9ED2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9493E62118D7609B008C91B2 /* libz.dylib */,
+				94023B20189FD431003934D3 /* Accelerate.framework */,
+				94F20BA118997CD0000A9ED2 /* CoreMotion.framework */,
+				94F20B9F18997CC4000A9ED2 /* ExternalAccessory.framework */,
+				94F20B9718997B95000A9ED2 /* RobotKit.framework */,
+				94F20B9818997B95000A9ED2 /* RobotUIKit.bundle */,
+				94F20B9918997B95000A9ED2 /* RobotUIKit.framework */,
 				94F20B5F1899744A000A9ED2 /* Foundation.framework */,
 				94F20B611899744A000A9ED2 /* CoreGraphics.framework */,
 				94F20B631899744A000A9ED2 /* UIKit.framework */,
@@ -122,6 +345,10 @@
 				94F20B781899744A000A9ED2 /* ViewController.m */,
 				94F20B7A1899744A000A9ED2 /* Images.xcassets */,
 				94F20B661899744A000A9ED2 /* Supporting Files */,
+				94E29A7D18CCA33C006AB5AA /* SidebarViewController.h */,
+				94E29A7E18CCA348006AB5AA /* SidebarViewController.m */,
+				949C804C18D34FC500CD60E6 /* MindColorKeeper.h */,
+				949C804A18D34F3200CD60E6 /* MindColorKeeper.m */,
 			);
 			path = MindSphero;
 			sourceTree = "<group>";
@@ -202,6 +429,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Maria Stoica";
 				TargetAttributes = {
+					94F20B5B1899744A000A9ED2 = {
+						DevelopmentTeam = 4HYQW4YU8H;
+					};
 					94F20B7F1899744A000A9ED2 = {
 						TestTargetID = 94F20B5B1899744A000A9ED2;
 					};
@@ -231,10 +461,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E5E90518B356C8009AB3DD /* Signal_Connecting2.png in Resources */,
+				9493E60318D75557008C91B2 /* MindSpheroBallHeadset29x29.png in Resources */,
+				9488AD2618C7606F0013DDEF /* verticalTachometerBackground.png in Resources */,
+				9493E5E918D705E8008C91B2 /* MindWave-Mobile.png in Resources */,
+				94E5E90118B35275009AB3DD /* Signal_Disconnected.png in Resources */,
+				9493E60518D75557008C91B2 /* MindSpheroBallHeadset50x50.png in Resources */,
 				94F20B761899744A000A9ED2 /* Main_iPad.storyboard in Resources */,
+				9494CC6818D4EEE7002094CF /* color-spectrum.png in Resources */,
+				9493E60418D75557008C91B2 /* MindSpheroBallHeadset40x40.png in Resources */,
+				9493E60018D75557008C91B2 /* MindSpheroBallHeadset120x120.png in Resources */,
+				9493E61518D75B89008C91B2 /* launchImage1024x768.png in Resources */,
+				9493E5FD18D75557008C91B2 /* MindSpheroBallHeadset.png in Resources */,
+				9493E5EB18D7063D008C91B2 /* SpheroInstuctions.png in Resources */,
+				94E5E8FD18B35269009AB3DD /* Signal_Connected.png in Resources */,
+				9493E62018D75FD4008C91B2 /* release_notes.md in Resources */,
+				9494CC6D18D65076002094CF /* blinkEye.png in Resources */,
+				94E5E90018B35275009AB3DD /* Signal_Connecting3.png in Resources */,
+				9494CC7018D65546002094CF /* verticalBlinkTachometerBackground.png in Resources */,
+				9493E61F18D75FD4008C91B2 /* README.md in Resources */,
+				9493E61118D75B89008C91B2 /* launchImage640x960.png in Resources */,
+				9493E5E318D70044008C91B2 /* instructions2.png in Resources */,
+				94E29A7018CC84F7006AB5AA /* settings.png in Resources */,
+				9493E5E118D6FFB6008C91B2 /* instructions1.png in Resources */,
 				94F20B7B1899744A000A9ED2 /* Images.xcassets in Resources */,
 				94F20B731899744A000A9ED2 /* Main_iPhone.storyboard in Resources */,
+				9493E60818D75557008C91B2 /* MindSpheroBallHeadset72x72.png in Resources */,
+				9493E60118D75557008C91B2 /* MindSpheroBallHeadset144x144.png in Resources */,
+				9494CC6E18D65076002094CF /* attentionEye.png in Resources */,
+				9493E61218D75B89008C91B2 /* launchImage640x1136.png in Resources */,
+				9493E5FE18D75557008C91B2 /* MindSpheroBallHeadset100x100.png in Resources */,
+				94E29A6E18CC7EF3006AB5AA /* tag.png in Resources */,
+				9493E60718D75557008C91B2 /* MindSpheroBallHeadset58x58.png in Resources */,
+				9493E60218D75557008C91B2 /* MindSpheroBallHeadset152x152.png in Resources */,
 				94F20B6A1899744A000A9ED2 /* InfoPlist.strings in Resources */,
+				9493E60618D75557008C91B2 /* MindSpheroBallHeadset57x57.png in Resources */,
+				94E29A6A18CC7E15006AB5AA /* SpheroIng.png in Resources */,
+				94E29A6C18CC7E15006AB5AA /* SpheroConnected.png in Resources */,
+				94E29A6B18CC7E15006AB5AA /* SpheroDisconnected.png in Resources */,
+				9493E5ED18D713AD008C91B2 /* bluetooth.png in Resources */,
+				94921ACF18D2F05D0094E337 /* bulaTag.png in Resources */,
+				9493E60A18D75557008C91B2 /* MindSpheroBallHeadset80x80.png in Resources */,
+				9493E61318D75B89008C91B2 /* lauchImage768x1024.png in Resources */,
+				94E5E90418B356C8009AB3DD /* Signal_Connecting1.png in Resources */,
+				9493E61418D75B89008C91B2 /* launchImage1536x2048.png in Resources */,
+				9493E60918D75557008C91B2 /* MindSpheroBallHeadset76x76.png in Resources */,
+				9494CC6A18D4F160002094CF /* SpheroSleep.png in Resources */,
+				94F20B9B18997B95000A9ED2 /* RobotUIKit.bundle in Resources */,
+				9494CC7218D658BE002094CF /* verticalAttentionTachometerBackground.png in Resources */,
+				9493E61618D75B89008C91B2 /* launchImage2048x1536.png in Resources */,
+				9493E5FF18D75557008C91B2 /* MindSpheroBallHeadset114x114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +530,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				94F20B791899744A000A9ED2 /* ViewController.m in Sources */,
+				94E29A7F18CCA348006AB5AA /* SidebarViewController.m in Sources */,
 				94F20B701899744A000A9ED2 /* AppDelegate.m in Sources */,
 				94F20B6C1899744A000A9ED2 /* main.m in Sources */,
+				94E29A7A18CC88A4006AB5AA /* SWRevealViewController.m in Sources */,
+				949C804B18D34F3200CD60E6 /* MindColorKeeper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +576,7 @@
 		94F20B741899744A000A9ED2 /* Main_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94F20B751899744A000A9ED2 /* Base */,
+				94E29A7C18CC91D0006AB5AA /* en */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -348,6 +627,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=*]" = "B2753995-A311-4BDC-9D17-ED2A260FAB55";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +661,8 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				"PROVISIONING_PROFILE[sdk=*]" = "17DBD3D9-9BF0-47A7-872F-DA7093C1F8F6";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -392,10 +674,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/MindSphero/frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MindSphero/MindSphero-Prefix.pch";
 				INFOPLIST_FILE = "MindSphero/MindSphero-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/MindSphero/frameworks",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/TestFlightSDK3.0.0",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lstdc++\n",
+					"-all_load\n",
+					"-ObjC\n",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -405,10 +707,31 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/MindSphero/frameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MindSphero/MindSphero-Prefix.pch";
 				INFOPLIST_FILE = "MindSphero/MindSphero-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/MindSphero/frameworks",
+					"/Users/mariaStoica/Desktop/mind\\ sphero\\ cu\\ ui/MindSphero/TestFlightSDK3.0.0",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lstdc++\n",
+					"-all_load\n",
+					"-ObjC\n",
+					"-lsqlite3",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -474,6 +797,7 @@
 				94F20B931899744A000A9ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94F20B941899744A000A9ED2 /* Build configuration list for PBXNativeTarget "MindSpheroTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +806,7 @@
 				94F20B961899744A000A9ED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TGAccessoryDelegate.h"
+#import "TGAccessoryManager.h"
+
+#import "TestFlight.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) UIWindow * window;
 
 @end

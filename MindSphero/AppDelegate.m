@@ -7,11 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
+// aici pune test flight codul de start app token
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [TestFlight takeOff:@"4f1704f9-2b01-4465-8fbb-ec6de2a13468"];
+    
+    NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+    TGAccessoryType accessoryType = (TGAccessoryType)[defaults integerForKey:@"accessory_type_preference"];
+    BOOL rawEnabled = [defaults boolForKey:@"raw_enabled"];
+    
+    if(rawEnabled) {
+        // setup the TGAccessoryManager to dispatch dataReceived notifications every 0.05s (20 times per second)
+        [[TGAccessoryManager sharedTGAccessoryManager] setupManagerWithInterval:0.05 forAccessoryType:accessoryType];
+        //NSLog(@"1");
+    } else {
+        [[TGAccessoryManager sharedTGAccessoryManager] setupManagerWithInterval:0.2 forAccessoryType:accessoryType];
+        //NSLog(@"2");
+    }
+    
+    [[TGAccessoryManager sharedTGAccessoryManager] setRawEnabled:rawEnabled];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -41,6 +60,8 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [[TGAccessoryManager sharedTGAccessoryManager] teardownManager];
+    //NSLog(@"13 - manager teared down");
 }
 
 @end
