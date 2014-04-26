@@ -3,7 +3,7 @@ MindSphero
 
 a.k.a: mind controlled ball
 
-![alt tag](https://raw.githubusercontent.com/MariaStoica/MindSphero/master/LaunchIcons/MindSpheroBallHeadset.png)
+![alt tag](https://raw.githubusercontent.com/MariaStoica/MindSphero/master/LaunchIcons/MindSpheroBallHeadset100x100.png)
 
 
 This app connects Neurosky's MindWave Mobile with Orbotix's Sphero ball.
