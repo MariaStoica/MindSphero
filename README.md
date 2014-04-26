@@ -1,4 +1,6 @@
 MindSphero
+==============
+
 a.k.a: mind controlled ball
 
 ![alt tag](https://github.com/MariaStoica/MindSphero/blob/master/LaunchIcons/MindSpheroBallHeadset.png)
@@ -20,5 +22,6 @@ http://www.gosphero.com/sphero-2-0/
 
 To get a MindWave Mobile, select your country's store here:
 http://support.neurosky.com/kb/store/list-of-countries-supported-by-store
+
 For the US, it's this link:
 http://store.neurosky.com/products/mindwave-mobile
